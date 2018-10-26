@@ -5,6 +5,22 @@ A sharable Stylelint configuration that enforces
 
 [thoughtbot-sass-guides]: https://github.com/thoughtbot/guides/tree/master/style/sass
 
+## Installation
+
+```bash
+npm install @thoughtbot/stylelint-config --save-dev
+```
+
+## Usage
+
+Set your stylelint config to:
+
+```json
+{
+  "extends": "@thoughtbot/stylelint-config"
+}
+```
+
 ## License
 
 thoughtbot Stylelint Config is copyright (c) 2018 Tyson Gach and
