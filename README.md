@@ -22,6 +22,29 @@ Set your [stylelint configuration][stylelint-configuration] to:
 }
 ```
 
+You can override rules from the shared configuration, by setting your
+own values within the `rules` property:
+
+```json
+{
+  "extends": "@thoughtbot/stylelint-config",
+  "rules": {
+    "string-quotes": "single"
+  }
+}
+```
+
+You can also turn a rule off, by setting the value of the rule to `null`:
+
+```json
+{
+  "extends": "@thoughtbot/stylelint-config",
+  "rules": {
+    "string-quotes": null
+  }
+}
+```
+
 [stylelint-configuration]: https://stylelint.io/user-guide/configuration/
 
 ## License
