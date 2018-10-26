@@ -1,8 +1,9 @@
 # thoughtbot Stylelint Config
 
-A sharable Stylelint configuration that enforces
+A sharable [Stylelint][stylelint] configuration that enforces
 [thoughtbot’s Sass guides][thoughtbot-sass-guides].
 
+[stylelint]: https://stylelint.io/
 [thoughtbot-sass-guides]: https://github.com/thoughtbot/guides/tree/master/style/sass
 
 ## Installation
@@ -13,13 +14,15 @@ npm install @thoughtbot/stylelint-config --save-dev
 
 ## Usage
 
-Set your stylelint config to:
+Set your [stylelint configuration][stylelint-configuration] to:
 
 ```json
 {
   "extends": "@thoughtbot/stylelint-config"
 }
 ```
+
+[stylelint-configuration]: https://stylelint.io/user-guide/configuration/
 
 ## License
 
