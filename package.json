@@ -12,7 +12,7 @@
   "main": "index.js",
   "name": "@thoughtbot/stylelint-config",
   "peerDependencies": {
-    "stylelint": "^9.6.0"
+    "stylelint": "^9.x"
   },
   "repository": {
     "type": "git",
