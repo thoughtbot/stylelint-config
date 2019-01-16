@@ -1,7 +1,7 @@
 {
   "author": "thoughtbot, Inc.",
   "dependencies": {
-    "stylelint-scss": "^3.5.0",
+    "stylelint-scss": "^3.5.1",
     "stylelint-order": "^1.0.0"
   },
   "keywords": [
