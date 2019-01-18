@@ -28,6 +28,7 @@ module.exports = {
     "declaration-property-value-blacklist": {
       "/^transition/": ["/all/"]
     },
+    "function-calc-no-invalid": true,
     "function-comma-space-after": "always-single-line",
     "function-comma-space-before": "never",
     "function-parentheses-space-inside": "never-single-line",
