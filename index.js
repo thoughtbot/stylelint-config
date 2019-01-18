@@ -29,6 +29,7 @@ module.exports = {
       "/^transition/": ["/all/"]
     },
     "function-calc-no-invalid": true,
+    "function-calc-no-unspaced-operator": true,
     "function-comma-space-after": "always-single-line",
     "function-comma-space-before": "never",
     "function-parentheses-space-inside": "never-single-line",
