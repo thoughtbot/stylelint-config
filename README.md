@@ -8,8 +8,16 @@ A sharable [Stylelint][stylelint] configuration that enforces
 
 ## Installation
 
+If using **npm**, run:
+
 ```bash
 npm install @thoughtbot/stylelint-config --save-dev
+```
+
+If using **Yarn**, run:
+
+```bash
+yarn add @thoughtbot/stylelint-config --dev
 ```
 
 ## Usage
