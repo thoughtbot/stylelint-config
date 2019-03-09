@@ -1,6 +1,6 @@
 # thoughtbot Stylelint Config
 
-A sharable [Stylelint][stylelint] configuration that enforces
+A sharable [stylelint][stylelint] configuration that enforces
 [thoughtbot’s Sass guides][thoughtbot-sass-guides].
 
 [stylelint]: https://stylelint.io/
