@@ -1,10 +1,12 @@
 module.exports = {
+  "extends": "stylelint-config-recommended",
   "plugins": [
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-order",
     "stylelint-scss"
   ],
   "rules": {
+    "at-rule-no-unknown": null,
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-before": "always-multi-line",
     "block-no-empty": true,
@@ -62,6 +64,7 @@ module.exports = {
     "scss/at-extend-no-missing-placeholder": true,
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/at-import-partial-extension-blacklist": ["scss"],
+    "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
     "scss/no-duplicate-dollar-variables": true,
