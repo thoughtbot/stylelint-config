@@ -57,7 +57,7 @@ You can also turn a rule off, by setting the value of the rule to `null`:
 
 ## License
 
-thoughtbot Stylelint Config is copyright (c) 2018 Tyson Gach and
+thoughtbot Stylelint Config is copyright (c) 2019 Tyson Gach and
 thoughtbot, inc. It is free software, and may be redistributed under the
 terms specified in the [LICENSE] file.
 
