@@ -62,6 +62,7 @@ module.exports = {
     "scss/at-import-partial-extension-blacklist": ["scss"],
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
+    "scss/no-duplicate-dollar-variables": true,
     "scss/operator-no-unspaced": true,
     "scss/selector-no-redundant-nesting-selector": true,
     "selector-list-comma-newline-after": "always",
