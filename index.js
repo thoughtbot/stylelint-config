@@ -1,5 +1,6 @@
 module.exports = {
   "plugins": [
+    "stylelint-declaration-block-no-ignored-properties",
     "stylelint-order",
     "stylelint-scss"
   ],
@@ -44,6 +45,7 @@ module.exports = {
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "order/properties-alphabetical-order": true,
+    "plugin/declaration-block-no-ignored-properties": true,
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
