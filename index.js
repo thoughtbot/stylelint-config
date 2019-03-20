@@ -66,6 +66,11 @@ module.exports = {
     "scss/selector-no-redundant-nesting-selector": true,
     "selector-list-comma-newline-after": "always",
     "selector-max-id": 0,
+    "selector-nested-pattern": [
+      "^(?!&__|&--|&-|&_).*", {
+        "message": "Don't concatenate selectors using Sass's parent selector (`&`)."
+      }
+    ],
     "selector-no-qualifying-type": true,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-case": "lower",
