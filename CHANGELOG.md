@@ -7,7 +7,27 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v0.2.0...HEAD
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.0...HEAD
+
+## [1.0.0] - 2019-03-23
+
+### Added
+
+- This config now extends the [`stylelint-config-recommended`], which turns on
+  all the possible errors rules within stylelint.
+- Enabled [`selector-nested-pattern`] to lint for selectors that are
+  concatenated using Sass's parent selector (`&`).
+- Enabled [`scss/no-duplicate-dollar-variables`], which lints for duplicate
+  Sass variables.
+- Added the [`stylelint-declaration-block-no-ignored-properties`] plugin, which
+  disallows property values that are ignored due to another property value in
+  the same rule.
+
+[1.0.0]: https://github.com/thoughtbot/stylelint-config/compare/v0.2.0...v1.0.0
+[`stylelint-config-recommended`]: https://github.com/stylelint/stylelint-config-recommended
+[`selector-nested-pattern`]: https://stylelint.io/user-guide/rules/selector-nested-pattern/
+[`scss/no-duplicate-dollar-variables`]: https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/no-duplicate-dollar-variables/README.md
+[`stylelint-declaration-block-no-ignored-properties`]: https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties
 
 ## [0.2.0] - 2019-01-18
 
