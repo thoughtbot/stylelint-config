@@ -9,6 +9,14 @@ Nothing at the moment.
 
 [unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.0...HEAD
 
+## [1.0.1] - 2019-04-18
+
+### Fixed
+
+- Added missing `stylelint-config-recommended` dependency.
+
+[1.0.1]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.0...v1.0.1
+
 ## [1.0.0] - 2019-03-23
 
 ### Added
