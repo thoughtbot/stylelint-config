@@ -7,7 +7,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.1...HEAD
 
 ## [1.0.1] - 2019-04-18
 
