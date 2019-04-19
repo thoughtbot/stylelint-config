@@ -1,6 +1,7 @@
 {
   "author": "thoughtbot, Inc.",
   "dependencies": {
+    "stylelint-config-recommended": "^2.2.0",
     "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
     "stylelint-order": "^2.1.0",
     "stylelint-scss": "^3.5.4"
