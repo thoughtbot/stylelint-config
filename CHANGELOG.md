@@ -5,12 +5,18 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.2...HEAD
+
+## [1.0.2] - 2019-08-06
+
 ### Changed
 
 - Use a `>=` stylelint peer dependency to be more flexible in which
   stylelint version consumers can use.
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.1...HEAD
+[1.0.2]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.1...v1.0.2
 
 ## [1.0.1] - 2019-04-18
 
