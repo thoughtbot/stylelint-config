@@ -5,7 +5,10 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
-Nothing at the moment.
+### Changed
+
+- Use a `>=` stylelint peer dependency to be more flexible in which
+  stylelint version consumers can use.
 
 [unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.1...HEAD
 
