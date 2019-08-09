@@ -1,4 +1,4 @@
-# thoughtbot Stylelint Config
+# thoughtbot stylelint Config
 
 A sharable [stylelint][stylelint] configuration that enforces
 [thoughtbot’s Sass guides][thoughtbot-sass-guides].
@@ -57,7 +57,7 @@ You can also turn a rule off, by setting the value of the rule to `null`:
 
 ## License
 
-thoughtbot Stylelint Config is copyright (c) 2019 Tyson Gach and
+thoughtbot stylelint Config is copyright (c) 2019 Tyson Gach and
 thoughtbot, inc. It is free software, and may be redistributed under the
 terms specified in the [LICENSE] file.
 
@@ -65,11 +65,11 @@ terms specified in the [LICENSE] file.
 
 ## About
 
-thoughtbot Stylelint Config is maintained by Tyson Gach.
+thoughtbot stylelint Config is maintained by Tyson Gach.
 
 ![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
 
-thoughtbot Stylelint Config is maintained and funded by thoughtbot, inc.
+thoughtbot stylelint Config is maintained and funded by thoughtbot, inc.
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 
 We love open source software! See [our other projects][community] or
