@@ -65,15 +65,15 @@ terms specified in the [LICENSE] file.
 
 ## About
 
-thoughtbot stylelint Config is maintained by Tyson Gach.
-
 ![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
 
-thoughtbot stylelint Config is maintained and funded by thoughtbot, inc.
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+thoughtbot stylelint Config is maintained by Tyson Gach and funded by
+[thoughtbot, inc.][thoughtbot] The names and logos for thoughtbot are
+trademarks of thoughtbot, inc.
 
 We love open source software! See [our other projects][community] or
 [hire us][hire] to help build your product.
 
+[thoughtbot]: https://thoughtbot.com/?utm_source=github
 [community]: https://thoughtbot.com/community?utm_source=github
 [hire]: https://thoughtbot.com/hire-us?utm_source=github
