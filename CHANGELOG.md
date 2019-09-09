@@ -7,7 +7,19 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.1.0...HEAD
+
+## [1.1.0] - 2019-09-09
+
+### Added
+
+- Enabled [`scss/selector-no-union-class-name`] (replacing our custom
+  implementation of linting for this).
+- Enabled [`scss/map-keys-quotes`].
+
+[1.1.0]: https://github.com/thoughtbot/stylelint-config/compare/v1.0.2...v1.1.0
+[`scss/selector-no-union-class-name`]: https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/selector-no-union-class-name/README.md
+[`scss/map-keys-quotes`]: https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/map-keys-quotes/README.md
 
 ## [1.0.2] - 2019-08-06
 
