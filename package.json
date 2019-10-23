@@ -1,10 +1,10 @@
 {
   "author": "thoughtbot, Inc.",
   "dependencies": {
-    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-recommended": "^3.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.0.0",
-    "stylelint-order": "^3.0.0",
-    "stylelint-scss": ">=3.9.3"
+    "stylelint-order": "^3.1.1",
+    "stylelint-scss": "^3.11.1"
   },
   "keywords": [
     "stylelint",

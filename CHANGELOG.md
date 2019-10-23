@@ -5,7 +5,11 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
-Nothing at the moment.
+### Changed
+
+- Updated stylelint-config-recommended to v3.0.0
+- Updated stylelint-order to v3.1.1
+- Updated stylelint-scss to v3.11.1
 
 [unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.1.0...HEAD
 
