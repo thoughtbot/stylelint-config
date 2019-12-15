@@ -5,13 +5,20 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.1.0...HEAD
+
+## [1.2.0] - 2019-12-15
+
 ### Changed
 
 - Updated stylelint-config-recommended to v3.0.0
 - Updated stylelint-order to v3.1.1
-- Updated stylelint-scss to v3.11.1
+- Updated stylelint-scss to v3.13.0
+- Updated stylelint-declaration-block-no-ignored-properties to v2.2.0
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.1.0...HEAD
+[1.2.0]: https://github.com/thoughtbot/stylelint-config/compare/v1.1.0...v1.2.0
 
 ## [1.1.0] - 2019-09-09
 
