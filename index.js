@@ -66,6 +66,8 @@ module.exports = {
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/selector-no-union-class-name": true,
     "selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-before": "never-multi-line",
+    "selector-list-comma-space-before": "never",
     "selector-max-id": 0,
     "selector-no-qualifying-type": true,
     "selector-no-vendor-prefix": true,
