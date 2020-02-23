@@ -42,6 +42,7 @@ module.exports = {
     "number-no-trailing-zeros": true,
     "order/properties-alphabetical-order": true,
     "plugin/declaration-block-no-ignored-properties": true,
+    "property-case": "lower",
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
       "always",
@@ -75,6 +76,8 @@ module.exports = {
     "selector-type-case": "lower",
     "shorthand-property-no-redundant-values": true,
     "string-quotes": "double",
+    "unit-case": "lower",
+    "value-keyword-case": "lower",
     "value-no-vendor-prefix": true
   }
 }
