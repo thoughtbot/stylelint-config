@@ -12,7 +12,7 @@ module.exports = {
     "block-opening-brace-newline-after": "always-multi-line",
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
-    "color-hex-length": "short",
+    "color-hex-length": "long",
     "color-named": "never",
     "comment-whitespace-inside": "always",
     "declaration-bang-space-after": "never",
