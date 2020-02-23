@@ -38,6 +38,7 @@ module.exports = {
     "function-url-quotes": "always",
     "indentation": 2,
     "length-zero-no-unit": true,
+    "max-empty-lines": 1,
     "max-nesting-depth": 3,
     "media-query-list-comma-newline-after": "always-multi-line",
     "media-query-list-comma-newline-before": "never-multi-line",
