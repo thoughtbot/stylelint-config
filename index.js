@@ -17,6 +17,7 @@ module.exports = {
     "comment-whitespace-inside": "always",
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
+    "declaration-block-no-redundant-longhand-properties": true,
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-space-after": "always-single-line",
