@@ -55,9 +55,12 @@ module.exports = {
         ]
       }
     ],
+    "scss/at-else-if-parentheses-space-before": "never",
     "scss/at-extend-no-missing-placeholder": true,
+    "scss/at-function-parentheses-space-before": "never",
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/at-import-partial-extension-blacklist": ["scss"],
+    "scss/at-mixin-parentheses-space-before": "never",
     "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
