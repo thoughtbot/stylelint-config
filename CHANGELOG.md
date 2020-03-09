@@ -7,7 +7,59 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v2.0.0...HEAD
+
+## [2.0.0] - 2020-03-09
+
+### Added
+
+- [`property-case`][2.0.0-1] set to `lower`
+- [`unit-case`][2.0.0-2] set to `lower`
+- [`value-keyword-case`][2.0.0-3] set to `lower`
+- [`scss/at-else-if-parentheses-space-before`][2.0.0-4] set to `never`
+- [`scss/at-function-parentheses-space-before`][2.0.0-5] set to `never`
+- [`scss/at-mixin-parentheses-space-before`][2.0.0-6] set to `never`
+- [`declaration-block-no-redundant-longhand-properties`][2.0.0-7] set to `true`
+- [`selector-list-comma-newline-before`][2.0.0-8] set to `never-multi-line`
+- [`selector-list-comma-space-before`][2.0.0-9] set to `never`
+- [`media-query-list-comma-newline-after`][2.0.0-10] set to `always-multi-line`
+- [`media-query-list-comma-newline-before`][2.0.0-11] set to `never-multi-line`
+- [`media-query-list-comma-space-after`][2.0.0-12] set to `always`
+- [`media-query-list-comma-space-before`][2.0.0-13] set to `never`
+- [`no-empty-first-line`][2.0.0-14] set to `true`
+- [`no-empty-source`][2.0.0-15] set to `true`
+- [`declaration-block-semicolon-newline-before`][2.0.0-16] set to `never-multi-line`
+- [`declaration-block-semicolon-space-before`][2.0.0-17] set to `never`
+- [`max-empty-lines`][2.0.0-18] set to `1`
+- [`max-line-length`][2.0.0-19] set to `80`
+
+### Changed
+
+- [`declaration-block-semicolon-newline-after`][2.0.0-20] was changed from `always-multi-line` to `always`
+- [`color-hex-length`][2.0.0-21] was changed from `short` to `long`
+
+[2.0.0]: https://github.com/thoughtbot/stylelint-config/compare/v1.2.0...v2.0.0
+[2.0.0-1]: https://stylelint.io/user-guide/rules/property-case
+[2.0.0-2]: https://stylelint.io/user-guide/rules/unit-case
+[2.0.0-3]: https://stylelint.io/user-guide/rules/value-keyword-case
+[2.0.0-4]: https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/at-else-if-parentheses-space-before/README.md
+[2.0.0-5]: https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/at-function-parentheses-space-before/README.md
+[2.0.0-6]: https://github.com/kristerkari/stylelint-scss/blob/master/src/rules/at-mixin-parentheses-space-before/README.md
+[2.0.0-7]: https://stylelint.io/user-guide/rules/shorthand-property-no-redundant-values
+[2.0.0-8]: https://stylelint.io/user-guide/rules/selector-list-comma-newline-before
+[2.0.0-9]: https://stylelint.io/user-guide/rules/selector-list-comma-space-before
+[2.0.0-10]: https://stylelint.io/user-guide/rules/media-query-list-comma-newline-after
+[2.0.0-11]: https://stylelint.io/user-guide/rules/media-query-list-comma-newline-before
+[2.0.0-12]: https://stylelint.io/user-guide/rules/media-query-list-comma-space-after
+[2.0.0-13]: https://stylelint.io/user-guide/rules/media-query-list-comma-space-before
+[2.0.0-14]: https://stylelint.io/user-guide/rules/no-empty-source
+[2.0.0-15]: https://stylelint.io/user-guide/rules/no-empty-first-line
+[2.0.0-16]: https://stylelint.io/user-guide/rules/declaration-block-semicolon-newline-before
+[2.0.0-17]: https://stylelint.io/user-guide/rules/declaration-block-semicolon-space-before
+[2.0.0-18]: https://stylelint.io/user-guide/rules/max-empty-lines
+[2.0.0-19]: https://stylelint.io/user-guide/rules/max-line-length
+[2.0.0-20]: https://stylelint.io/user-guide/rules/declaration-block-semicolon-newline-after
+[2.0.0-21]: https://stylelint.io/user-guide/rules/color-hex-length
 
 ## [1.2.0] - 2019-12-15
 
