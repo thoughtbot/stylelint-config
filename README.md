@@ -73,7 +73,7 @@ apm install linter linter-stylelint
 
 ## License
 
-thoughtbot stylelint Config is copyright (c) 2020 Tyson Gach and
+thoughtbot stylelint Config is copyright (c) 2020
 thoughtbot, inc. It is free software, and may be redistributed under the
 terms specified in the [LICENSE] file.
 
@@ -83,7 +83,7 @@ terms specified in the [LICENSE] file.
 
 ![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
 
-thoughtbot stylelint Config is maintained by Tyson Gach and funded by
+thoughtbot stylelint Config is maintained and funded by
 [thoughtbot, inc.][thoughtbot] The names and logos for thoughtbot are
 trademarks of thoughtbot, inc.
 
