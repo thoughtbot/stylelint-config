@@ -25,10 +25,10 @@ module.exports = {
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-no-important": true,
-    "declaration-property-unit-whitelist": {
+    "declaration-property-unit-allowed-list": {
       "line-height": []
     },
-    "declaration-property-value-blacklist": {
+    "declaration-property-value-disallowed-list": {
       "/^transition/": ["/all/"]
     },
     "function-comma-space-after": "always-single-line",
