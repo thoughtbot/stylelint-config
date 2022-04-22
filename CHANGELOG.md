@@ -3,11 +3,29 @@
 All notable changes to this project will be documented in this file. This
 project adheres to [Semantic Versioning](http://semver.org).
 
-## [Unreleased (`master`)][unreleased]
+## [Unreleased (`main`)][unreleased]
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v2.0.0...HEAD
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v3.0.0...HEAD
+
+## [3.0.0] - 2022-04-22
+
+### Changed
+
+- [`function-calc-no-invalid`][3.0.0-1] removed as it's been deprecated
+- [`declaration-property-unit-allowed-list`][3.0.0-2] was changed from `declaration-property-unit-whitelist`
+- [`declaration-property-value-disallowed-list`][3.0.0-3] was changed from `declaration-property-unit-blacklist`
+- Updated stylelint to v14.7.1
+- Updated stylelint-config-recommended to v7.0.0
+- Updated stylelint-order to v5.0.0
+- Updated stylelint-scss to v4.2.0
+- Updated stylelint-declaration-block-no-ignored-properties to v2.5.0
+
+[3.0.0]: https://github.com/thoughtbot/stylelint-config/compare/v2.0.0...v3.0.0
+[3.0.0-1]: https://github.com/stylelint/stylelint/pull/5296
+[3.0.0-2]: https://github.com/stylelint/stylelint/blob/13.7.0/lib/rules/declaration-property-unit-whitelist/README.md
+[3.0.0-3]: https://github.com/stylelint/stylelint/blob/13.7.0/lib/rules/declaration-property-value-blacklist/README.md
 
 ## [2.0.0] - 2020-03-09
 
