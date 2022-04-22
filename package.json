@@ -24,5 +24,5 @@
     "prepublishOnly": "git push && git push --tags",
     "version": "git add CHANGELOG.md"
   },
-  "version": "2.0.0"
+  "version": "3.0.0"
 }
