@@ -7,7 +7,18 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v3.0.0...HEAD
+[unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v3.0.1...HEAD
+
+## [3.0.1] - 2023-07-14
+
+### Changed
+
+- Updated stylelint to v15.10.1
+- Updated stylelint-config-recommended to v13.0.0
+- Updated stylelint-order to v6.0.0
+- Updated stylelint-scss to v5.0.0
+
+[3.0.1]: https://github.com/thoughtbot/stylelint-config/compare/v3.0.0...v3.0.1
 
 ## [3.0.0] - 2022-04-22
 
