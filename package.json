@@ -1,10 +1,10 @@
 {
   "author": "thoughtbot, Inc.",
   "dependencies": {
-    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-recommended": "^13.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.2.0"
+    "stylelint-order": "^6.0.0",
+    "stylelint-scss": "^5.0.0"
   },
   "keywords": [
     "stylelint",
@@ -14,7 +14,7 @@
   "main": "index.js",
   "name": "@thoughtbot/stylelint-config",
   "peerDependencies": {
-    "stylelint": "^14.7.1"
+    "stylelint": "^15.10.1"
   },
   "repository": {
     "type": "git",
