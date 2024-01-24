@@ -1,9 +1,8 @@
 module.exports = {
-  "extends": "stylelint-config-recommended",
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-recommended"],
   "plugins": [
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-order",
-    "stylelint-scss"
   ],
   "rules": {
     "at-rule-no-unknown": null,
@@ -53,6 +52,14 @@ module.exports = {
     "order/properties-alphabetical-order": true,
     "plugin/declaration-block-no-ignored-properties": true,
     "property-case": "lower",
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "text-size"
+        ]
+      }
+    ],
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
       "always",
