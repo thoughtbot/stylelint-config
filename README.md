@@ -4,7 +4,7 @@ A sharable [stylelint][stylelint] configuration that enforces
 [thoughtbot’s Sass guides][thoughtbot-sass-guides].
 
 [stylelint]: https://stylelint.io/
-[thoughtbot-sass-guides]: https://github.com/thoughtbot/guides/tree/master/style/sass
+[thoughtbot-sass-guides]: https://github.com/thoughtbot/guides/tree/main/sass
 
 ## Installation
 
