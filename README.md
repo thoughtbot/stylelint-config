@@ -55,22 +55,6 @@ You can also turn a rule off, by setting the value of the rule to `null`:
 
 [stylelint-configuration]: https://stylelint.io/user-guide/configuration/
 
-### Atom integration
-
-stylelint can be integrated into [Atom][atom] so that you will be alerted of
-any warnings and errors inline, while you work.
-
-Install the [linter][linter] and [linter-stylelint][linter-stylelint] packages
-using Atom’s package manager or enter this into your terminal:
-
-```bash
-apm install linter linter-stylelint
-```
-
-[atom]: https://atom.io/
-[linter]: https://atom.io/packages/linter
-[linter-stylelint]: https://atom.io/packages/linter-stylelint
-
 ## License
 
 thoughtbot stylelint Config is copyright (c) 2020
