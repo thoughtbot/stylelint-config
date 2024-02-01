@@ -2,9 +2,9 @@
   "author": "thoughtbot, Inc.",
   "dependencies": {
     "stylelint-config-recommended": "^13.0.0",
+    "stylelint-config-standard-scss": "^11.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
-    "stylelint-order": "^6.0.0",
-    "stylelint-scss": "^5.0.0"
+    "stylelint-order": "^6.0.0"
   },
   "keywords": [
     "stylelint",
@@ -21,6 +21,8 @@
     "url": "https://github.com/thoughtbot/stylelint-config.git"
   },
   "scripts": {
+    "test": "node --test __tests__/*.test.*",
+    "lint:css": "stylelint --config index.js **/*.scss",
     "prepublishOnly": "git push && git push --tags",
     "version": "git add CHANGELOG.md"
   },

@@ -1,0 +1,54 @@
+
+
+  @import "partial-name";
+
+/*I'm here to explain what this class does*/
+$color-variable: #EEEEEE;
+$color-variable: #FFFFFF;
+$color-variable2:#fff;
+
+.class-one {}
+
+.class-two{
+  -webkit-transition: all 4s ease;
+  color: red !important;
+  text-color: blue;
+  display: block ;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+
+  line-height: 10px;
+
+
+  background-color: $color-variable;
+  margin: 10px
+
+  article {
+    div {
+      p {
+        a {
+          color: #000000;
+        }
+      }
+  }
+  }
+
+}
+$map: (
+  key1: value-1,
+  "key-2": value-2,
+);
+
+.button ,button {
+  border-radius: 3px;
+}
+
+#button {
+  border-radius: 6PX;
+
+  &:BEFORE {
+    content: "+"
+  }
+}
