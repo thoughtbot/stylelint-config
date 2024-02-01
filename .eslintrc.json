@@ -1,0 +1,7 @@
+{
+  "extends": ["@thoughtbot/eslint-config/base"],
+  "plugins": ["prettier"],
+  "rules": {
+    "import/extensions": "off"
+  }
+}

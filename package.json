@@ -23,8 +23,14 @@
   "scripts": {
     "test": "node --test __tests__/*.test.*",
     "lint:css": "stylelint --config index.js **/*.scss",
+    "lint:js": "eslint **/*.js **/*.?js",
     "prepublishOnly": "git push && git push --tags",
     "version": "git add CHANGELOG.md"
   },
-  "version": "3.0.1"
+  "version": "3.0.1",
+  "devDependencies": {
+    "@thoughtbot/eslint-config": "^1.0.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3"
+  }
 }
