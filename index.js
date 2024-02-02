@@ -5,6 +5,12 @@ module.exports = {
     'stylelint-order',
   ],
   rules: {
+    'annotation-no-unknown': [
+      true,
+      {
+        ignoreAnnotations: ['default', 'global'],
+      },
+    ],
     'at-rule-no-unknown': null,
     'color-hex-length': 'long',
     'color-named': 'never',
