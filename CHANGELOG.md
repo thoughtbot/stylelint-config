@@ -9,6 +9,22 @@ Nothing at the moment.
 
 [unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v3.0.1...HEAD
 
+## [4.0.0] - 2024-02-02
+
+* Add a script to automate building the CHANGELOG (#56)
+* Allow !default annotations (#55)
+* Upgrade Stylelint to v16.2.0 (#54)
+* Lint JavaScript with eslint/prettier (#53)
+* Remove deprecated rules, but test for future ones (#52)
+* Start testing against a sample (#51)
+* Remove Atom editor configuration (#49)
+* Fix thoughtbot README logo (#50)
+* Fix link to Sass guides (#48)
+* Upgrade Node to v20.11.0 (#47)
+* Add Dependabot for dependency checking (#40)
+
+[4.0.0]: https://github.com/thoughtbot/stylelint-config/compare/v3.0.1...v4.0.0
+
 ## [3.0.1] - 2023-07-14
 
 ### Changed
