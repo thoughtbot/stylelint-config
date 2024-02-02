@@ -5,8 +5,9 @@ Config. It’s for thoughtbot employees.
 
 1. Make sure you’re on the `main` branch with a clean working directory.
 
-1. Update the [changelog][changelog], following the guidelines from
-   [keep a changelog][keep-a-changelog]
+1. Run `bin/build-changelog` to put together the entries for the CHANGELOG. You
+   might wish to edit it or make other minor changes. Then, you can update
+   `CHANGELOG.md`.
 
 1. Run `npm version [major | minor | patch] --force`
 
