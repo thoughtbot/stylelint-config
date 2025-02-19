@@ -23,6 +23,7 @@ module.exports = {
     'declaration-property-value-disallowed-list': {
       '/^transition/': ['/all/'],
     },
+    'declaration-property-value-no-unknown': null,
     'function-url-quotes': 'always',
     'length-zero-no-unit': true,
     'max-nesting-depth': 3,
@@ -53,7 +54,7 @@ module.exports = {
     'scss/at-extend-no-missing-placeholder': true,
     'scss/at-function-parentheses-space-before': 'never',
     'scss/load-no-partial-leading-underscore': true,
-    'scss/at-import-partial-extension-blacklist': ['scss'],
+    'scss/at-import-partial-extension-disallowed-list': ['scss'],
     'scss/at-mixin-parentheses-space-before': 'never',
     'scss/at-rule-no-unknown': true,
     'scss/dollar-variable-colon-space-after': 'always',
