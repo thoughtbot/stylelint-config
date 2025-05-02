@@ -35,6 +35,7 @@ $map: (
   align-items: center;
   display: flex;
   flex: 1 1 auto;
+  transition-behavior: allow-discrete;
 
   a {
     text-decoration: none;
