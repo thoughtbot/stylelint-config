@@ -21,7 +21,7 @@ module.exports = {
       'line-height': [],
     },
     'declaration-property-value-disallowed-list': {
-      '/^transition/': ['/all/'],
+      '/^transition/': ['/^all /'],
     },
     'declaration-property-value-no-unknown': null,
     'function-url-quotes': 'always',
