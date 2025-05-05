@@ -31,6 +31,6 @@
   "devDependencies": {
     "@thoughtbot/eslint-config": "^1.0.3",
     "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-prettier": "^5.2.6"
+    "eslint-plugin-prettier": "^5.3.1"
   }
 }
