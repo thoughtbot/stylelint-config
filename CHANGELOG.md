@@ -9,6 +9,26 @@ Nothing at the moment.
 
 [unreleased]: https://github.com/thoughtbot/stylelint-config/compare/v3.0.1...HEAD
 
+## [5.0.0] - 2025-0512
+
+_`stylelint-config-recommend` dropped support for Node.js less than 22, so we 
+switched to testing against the current LTS (v22.15.0)_
+
+* Upgrade `stylelint-config-recommended` from v14.0.0 to v16.0.0
+* Upgrade `stylelint-config-standard-scss` from v13.0.0 to v15.0.0
+* Upgrade `stylelint-order` from v6.0.4 to v7.0.0
+* Upgrade Node to v22.15.0 (#85)
+* Specify Node version manually (#87)
+* Upgrade actions/checkout from v3 to v4 (#86)
+* Narrowly specify the desired transition declaration (#80)
+* Add security.yml and SECURITY.md (#62)
+* Create CODEOWNERS
+* Add an additional space to the README (#60)
+* Refresh README dynamic section (#59)
+* Call dynamic-readme reusable workflow (#57)
+
+[5.0.0]: https://github.com/thoughtbot/stylelint-config/compare/v4.0.0...v5.0.0
+
 ## [4.0.0] - 2024-02-02
 
 * Add a script to automate building the CHANGELOG (#56)

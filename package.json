@@ -27,7 +27,7 @@
     "prepublishOnly": "git push && git push --tags",
     "version": "git add CHANGELOG.md"
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "devDependencies": {
     "@thoughtbot/eslint-config": "^1.0.3",
     "eslint-config-prettier": "^10.1.5",
