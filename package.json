@@ -30,7 +30,7 @@
   "version": "5.0.0",
   "devDependencies": {
     "@thoughtbot/eslint-config": "^1.0.3",
-    "eslint-config-prettier": "^10.1.5",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.1"
   }
 }
