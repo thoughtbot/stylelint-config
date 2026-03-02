@@ -29,7 +29,7 @@
   },
   "version": "5.0.0",
   "devDependencies": {
-    "@thoughtbot/eslint-config": "^1.0.3",
+    "@thoughtbot/eslint-config": "^2.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5"
   }
